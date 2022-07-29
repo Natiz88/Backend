@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is backend server",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "test",
+    "start":"nodemon server.js"
+  },
+  "author": "natiz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19"
+  }
+}
